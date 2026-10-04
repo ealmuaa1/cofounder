@@ -124,3 +124,15 @@ Musharaka Collective: free community for Muslim & Arab co-founders in the US �
 | Fri (after Jumu'ah) | Post **D** or **G** in 2 groups. Friday is high-engagement in Muslim communities |
 | Sat | Post **F** in 1 investing group |
 | Sun | Reply to all comments, approve members, post in your own group |
+
+---
+
+## Groups reviewed
+
+### تعالو نساعد بعض في امريكا ("Let's help each other in America")
+https://www.facebook.com/groups/678496455222146. Reviewed 2026-10-04 (last 24 posts).
+- **Audience:** Arabs in the US (mostly Egyptian, Arabic-speaking), many home-based sellers.
+- **Content:** almost entirely shared ads (jewelry, clothes, Ramadan decor, real estate, Walmart deals). About 20 posts a day.
+- **Engagement:** very low. 23 of 24 posts got **0 likes and 0 comments**.
+- **Verdict:** ⚠️ Low value. Posting is allowed, but posts drown in ads. Worth **one** original text post (not a share), then move on. Don't post here repeatedly.
+- **Tip:** the members are small-business sellers, so frame the post as "grow your small business with a partner."
