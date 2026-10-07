@@ -156,6 +156,74 @@ const images = {
       <div class="center" style="margin-top:40px;font-size:28px;line-height:1.5;opacity:.92">Copy the template from the pinned post and share yours 👇</div>
     </div>${brandFooter}`],
 
+
+  // Quote card — partner > idea (1:1)
+  'quote-partner': [1080, 1080, `
+    <div class="border" style="inset:36px"></div>
+    <div class="center" style="position:absolute;inset:0;padding:0 120px 90px">
+      <div class="serif gold" style="font-size:220px;line-height:.6;height:110px">&ldquo;</div>
+      <div class="serif" style="font-size:76px;font-weight:600;line-height:1.12">Most partnerships don't fail because of the <span class="gold">idea</span>.</div>
+      <div class="serif" style="font-size:76px;font-weight:700;line-height:1.12;margin-top:26px">They fail because of the <span class="gold">partner</span>.</div>
+      <div class="rule" style="width:360px;margin:46px 0 0"></div>
+    </div>${brandFooter}`],
+
+  // Checklist promo (4:5)
+  'checklist-promo': [1080, 1350, `
+    <div class="border" style="inset:36px"></div>
+    <div class="center" style="position:absolute;inset:0;padding:0 100px 120px">
+      <div style="padding:12px 30px;border-radius:999px;background:${C.gold};color:${C.green};font-weight:800;font-size:28px;letter-spacing:.2em">FREE GUIDE</div>
+      <div class="serif" style="font-size:96px;font-weight:700;line-height:1.02;margin-top:36px">The Partnership<br>Agreement<br>Checklist</div>
+      <div style="font-size:34px;line-height:1.45;margin-top:30px;opacity:.92">15 things to agree on <b class="gold">before</b> you partner with anyone</div>
+      <div style="margin-top:44px;background:${C.cream};color:${C.ink};border-radius:20px;padding:30px 44px;text-align:left;font-size:29px;line-height:1.8;box-shadow:0 20px 60px rgba(0,0,0,.3)">
+        ☐ Who brings what<br>☐ Profit &amp; loss split<br>☐ Vesting &amp; salaries<br>☐ Deadlocks &amp; decisions<br>☐ The exit plan
+      </div>
+      <div style="margin-top:40px;font-size:30px;font-weight:600;color:${C.gold2}">📌 Free inside the group</div>
+    </div>${brandFooter}`],
+
+  // 5 red flags (4:5)
+  'red-flags': [1080, 1350, `
+    <div class="border" style="inset:36px"></div>
+    <div style="position:absolute;inset:0;padding:0 100px 120px;display:flex;flex-direction:column;justify-content:center">
+      <div class="center">
+        <div class="eyebrow" style="font-size:24px">Before you sign anything</div>
+        <div class="serif" style="font-size:88px;font-weight:700;line-height:1.05;margin-top:18px">5 Red Flags<br>in a Partner 🚩</div>
+      </div>
+      <div style="margin-top:50px;font-size:34px;line-height:1.35">
+        ${['Vague about their own money or past deals', 'Wants a big share before contributing anything', 'Avoids putting things in writing', 'Blames others for every past failure', 'Pushes you to commit fast']
+          .map((t, i) => `<div style="display:flex;gap:26px;align-items:center;padding:22px 0;border-bottom:1px solid rgba(201,162,74,.35)"><div class="serif gold" style="font-size:64px;font-weight:700;width:50px">${i + 1}</div><div>${t}</div></div>`).join('')}
+      </div>
+      <div class="center" style="margin-top:40px;font-size:28px;opacity:.9">Which one have you seen? 👇</div>
+    </div>${brandFooter}`],
+
+  // 4 ingredients (1:1)
+  'four-ingredients': [1080, 1080, `
+    <div class="border" style="inset:36px"></div>
+    <div style="position:absolute;inset:0;padding:110px 96px 0">
+      <div class="center">
+        <div class="eyebrow" style="font-size:22px">Every business needs 4 things</div>
+        <div class="serif" style="font-size:72px;font-weight:700;line-height:1.05;margin-top:16px">Which one are <span class="gold">you</span> missing?</div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:46px">
+        ${[['💡', 'Idea', 'A problem worth solving'], ['🛠️', 'Skills', 'Someone who can build & sell'], ['💰', 'Capital', 'Money to start & grow'], ['🤝', 'Customers', 'People who will pay']]
+          .map(([e, t, d]) => `<div style="background:rgba(247,242,231,.06);border:1.5px solid rgba(201,162,74,.55);border-radius:22px;padding:30px 24px;text-align:center"><div style="font-size:56px">${e}</div><div class="serif" style="font-size:46px;font-weight:700">${t}</div><div style="font-size:24px;opacity:.88;margin-top:4px">${d}</div></div>`).join('')}
+      </div>
+      <div class="center" style="margin-top:34px;font-size:28px;font-weight:600">The right partner brings what you don't 👇</div>
+    </div>${brandFooter}`],
+
+  // 7 steps summary (4:5)
+  'seven-steps': [1080, 1350, `
+    <div class="border" style="inset:36px"></div>
+    <div style="position:absolute;inset:0;padding:0 96px 120px;display:flex;flex-direction:column;justify-content:center">
+      <div class="center">
+        <div class="eyebrow" style="font-size:22px">Save this 📌</div>
+        <div class="serif" style="font-size:80px;font-weight:700;line-height:1.05;margin-top:16px">How to Test a Partner<br>in 7 Steps</div>
+      </div>
+      <div style="margin-top:44px;font-size:31px;line-height:1.3">
+        ${['List what you bring & what you lack', 'Agree on the goal before the work', 'Run a 30-day test project', 'Watch: promises, pressure, money, solutions', 'Split roles: one owner per area', 'Agree on money & vesting upfront', 'Plan the exit before you start']
+          .map((t, i) => `<div style="display:flex;gap:22px;align-items:center;padding:15px 0;border-bottom:1px solid rgba(201,162,74,.3)"><div style="width:52px;height:52px;border-radius:50%;background:${C.gold};color:${C.green};font-weight:800;font-size:26px;display:flex;align-items:center;justify-content:center;flex:none">${i + 1}</div><div>${t}</div></div>`).join('')}
+      </div>
+    </div>${brandFooter}`],
+
   // Profile picture for the Page/group — 1080x1080, logo only
   'profile-logo': [1080, 1080, `
     <div class="center" style="position:absolute;inset:0">
